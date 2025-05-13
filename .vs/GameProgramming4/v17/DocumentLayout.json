@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|solutionrelative:GameProgramming4\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\sample.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|solutionrelative:GameProgramming4\\sample.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|solutionrelative:GameProgramming4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Template.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|solutionrelative:GameProgramming4\\Template.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86AE8FFC-0E78-4F8B-A98A-8C6A39627619}|GameProgramming4\\GameProgramming4.vcxproj|solutionrelative:GameProgramming4\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\main.h",
-              "RelativeDocumentMoniker": "GameProgramming4\\main.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\main.h",
-              "RelativeToolTip": "GameProgramming4\\main.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Common.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Common.h",
+              "RelativeDocumentMoniker": "GameProgramming4\\Common.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Common.h",
+              "RelativeToolTip": "GameProgramming4\\Common.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-13T07:04:00.441Z",
+              "WhenOpened": "2025-05-13T07:59:03.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sample.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Sample.h",
+              "RelativeDocumentMoniker": "GameProgramming4\\Sample.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Sample.h",
+              "RelativeToolTip": "GameProgramming4\\Sample.h",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwFEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-13T07:57:24.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Template.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Template.h",
+              "RelativeDocumentMoniker": "GameProgramming4\\Template.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\Template.h",
+              "RelativeToolTip": "GameProgramming4\\Template.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-13T07:41:39.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\main.cpp",
+              "RelativeDocumentMoniker": "GameProgramming4\\main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameProgramming4\\GameProgramming4\\main.cpp",
+              "RelativeToolTip": "GameProgramming4\\main.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-13T07:14:16.119Z",
               "EditorCaption": ""
             }
           ]
