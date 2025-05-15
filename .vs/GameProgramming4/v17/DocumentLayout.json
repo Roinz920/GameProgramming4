@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "I:\\GameProgramming_Personal\\GameProgramming4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7485BA7D-2080-43B6-A8BB-B1FAA5C87FAF}|Ch2_ConsoleGame_GenericExample\\Ch2_ConsoleGame_GenericExample.vcxproj|I:\\GAMEPROGRAMMING_PERSONAL\\GAMEPROGRAMMING4\\UTILITYPROJECT\\CONSOLEUTILITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7485BA7D-2080-43B6-A8BB-B1FAA5C87FAF}|Ch2_ConsoleGame_GenericExample\\Ch2_ConsoleGame_GenericExample.vcxproj|solutionrelative:UTILITYPROJECT\\CONSOLEUTILITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E77629D1-EE50-4F55-A48D-8C2F33545E78}|Ch1_Generic Programming\\Ch1_Generic Programming.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch1_Generic Programming\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E77629D1-EE50-4F55-A48D-8C2F33545E78}|Ch1_Generic Programming\\Ch1_Generic Programming.vcxproj|solutionrelative:Ch1_Generic Programming\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B33B1E-12F8-4929-A0C4-4D51B03EB8A1}|UtilityProject\\UtilityProject.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0B33B1E-12F8-4929-A0C4-4D51B03EB8A1}|UtilityProject\\UtilityProject.vcxproj|solutionrelative:UtilityProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConsoleUtility.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\ConsoleUtility.h",
+              "RelativeDocumentMoniker": "UtilityProject\\ConsoleUtility.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\ConsoleUtility.h",
+              "RelativeToolTip": "UtilityProject\\ConsoleUtility.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-15T07:08:03.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\main.cpp",
+              "RelativeDocumentMoniker": "UtilityProject\\main.cpp",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\main.cpp",
+              "RelativeToolTip": "UtilityProject\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-15T07:03:48.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch1_Generic Programming\\main.cpp",
               "RelativeDocumentMoniker": "Ch1_Generic Programming\\main.cpp",
               "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch1_Generic Programming\\main.cpp",
               "RelativeToolTip": "Ch1_Generic Programming\\main.cpp",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAUwIIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-14T07:01:49.561Z",
               "EditorCaption": ""
