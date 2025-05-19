@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "I:\\GameProgramming_Personal\\GameProgramming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{002A0F78-CE24-4FCC-8B02-46E12670C0D1}|Ch3_Vector\\Ch3_Vector.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch3_Vector\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{002A0F78-CE24-4FCC-8B02-46E12670C0D1}|Ch3_Vector\\Ch3_Vector.vcxproj|solutionrelative:Ch3_Vector\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\CustomVector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|solutionrelative:Ch4_MyVector\\CustomVector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|solutionrelative:Ch4_MyVector\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|I:\\GAMEPROGRAMMING_PERSONAL\\GAMEPROGRAMMING4\\UTILITYPROJECT\\CONSOLEUTILITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|solutionrelative:UTILITYPROJECT\\CONSOLEUTILITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\RandomEncount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{467E63F3-1120-4CA3-B00B-A002540A263E}|Ch4_MyVector\\Ch4_MyVector.vcxproj|solutionrelative:Ch4_MyVector\\RandomEncount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch3_Vector\\main.cpp",
-              "RelativeDocumentMoniker": "Ch3_Vector\\main.cpp",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch3_Vector\\main.cpp",
-              "RelativeToolTip": "Ch3_Vector\\main.cpp",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAUwJwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\main.cpp",
+              "RelativeDocumentMoniker": "Ch4_MyVector\\main.cpp",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\main.cpp",
+              "RelativeToolTip": "Ch4_MyVector\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-16T07:03:34.759Z",
+              "WhenOpened": "2025-05-19T07:01:28.065Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleUtility.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\ConsoleUtility.h",
+              "RelativeDocumentMoniker": "UtilityProject\\ConsoleUtility.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\ConsoleUtility.h",
+              "RelativeToolTip": "UtilityProject\\ConsoleUtility.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-19T08:23:54.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandomEncount.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\RandomEncount.h",
+              "RelativeDocumentMoniker": "Ch4_MyVector\\RandomEncount.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\RandomEncount.h",
+              "RelativeToolTip": "Ch4_MyVector\\RandomEncount.h",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-19T08:15:31.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomVector.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\CustomVector.h",
+              "RelativeDocumentMoniker": "Ch4_MyVector\\CustomVector.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch4_MyVector\\CustomVector.h",
+              "RelativeToolTip": "Ch4_MyVector\\CustomVector.h",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAtwFkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-19T07:04:32.773Z",
               "EditorCaption": ""
             }
           ]
