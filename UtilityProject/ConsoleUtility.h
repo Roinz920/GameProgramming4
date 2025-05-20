@@ -8,6 +8,8 @@
 #include <vector>
 #include <algorithm>
 #include <array>
+#include <map>
+#include <list>
 using std::cout;
 using std::cin;
 using std::endl;
