@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "I:\\GameProgramming_Personal\\GameProgramming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24013046-AC46-4843-9DED-A230FA776CF1}|Ch6_TownRPG\\Ch6_TownRPG.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\BattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24013046-AC46-4843-9DED-A230FA776CF1}|Ch6_TownRPG\\Ch6_TownRPG.vcxproj|solutionrelative:Ch6_TownRPG\\BattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\GameModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|solutionrelative:Ch7_DataLoadAndSave\\GameModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24013046-AC46-4843-9DED-A230FA776CF1}|Ch6_TownRPG\\Ch6_TownRPG.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24013046-AC46-4843-9DED-A230FA776CF1}|Ch6_TownRPG\\Ch6_TownRPG.vcxproj|solutionrelative:Ch6_TownRPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\DropTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|solutionrelative:Ch7_DataLoadAndSave\\DropTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24013046-AC46-4843-9DED-A230FA776CF1}|Ch6_TownRPG\\Ch6_TownRPG.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\GameModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24013046-AC46-4843-9DED-A230FA776CF1}|Ch6_TownRPG\\Ch6_TownRPG.vcxproj|solutionrelative:Ch6_TownRPG\\GameModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\DataHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|solutionrelative:Ch7_DataLoadAndSave\\DataHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70D0FD7E-FD26-41A6-9934-8B229EB348ED}|Ch7_DataLoadAndSave\\Ch7_DataLoadAndSave.vcxproj|solutionrelative:Ch7_DataLoadAndSave\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BattleManager.h",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\BattleManager.h",
-              "RelativeDocumentMoniker": "Ch6_TownRPG\\BattleManager.h",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\BattleManager.h",
-              "RelativeToolTip": "Ch6_TownRPG\\BattleManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DataHandler.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\DataHandler.h",
+              "RelativeDocumentMoniker": "Ch7_DataLoadAndSave\\DataHandler.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\DataHandler.h",
+              "RelativeToolTip": "Ch7_DataLoadAndSave\\DataHandler.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-21T08:31:21.806Z",
+              "WhenOpened": "2025-05-22T08:11:28.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\main.cpp",
-              "RelativeDocumentMoniker": "Ch6_TownRPG\\main.cpp",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\main.cpp",
-              "RelativeToolTip": "Ch6_TownRPG\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-21T08:24:48.249Z",
+              "Title": "DropTable.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\DropTable.h",
+              "RelativeDocumentMoniker": "Ch7_DataLoadAndSave\\DropTable.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\DropTable.h",
+              "RelativeToolTip": "Ch7_DataLoadAndSave\\DropTable.h",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-22T07:39:32.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameModel.h",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\GameModel.h",
-              "RelativeDocumentMoniker": "Ch6_TownRPG\\GameModel.h",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch6_TownRPG\\GameModel.h",
-              "RelativeToolTip": "Ch6_TownRPG\\GameModel.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvx8AAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\GameModel.h",
+              "RelativeDocumentMoniker": "Ch7_DataLoadAndSave\\GameModel.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\GameModel.h",
+              "RelativeToolTip": "Ch7_DataLoadAndSave\\GameModel.h",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-21T08:16:38.64Z",
+              "WhenOpened": "2025-05-22T07:03:04.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\main.cpp",
+              "RelativeDocumentMoniker": "Ch7_DataLoadAndSave\\main.cpp",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch7_DataLoadAndSave\\main.cpp",
+              "RelativeToolTip": "Ch7_DataLoadAndSave\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T07:02:56.555Z",
               "EditorCaption": ""
             }
           ]
