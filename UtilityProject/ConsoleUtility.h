@@ -10,6 +10,7 @@
 #include <array>
 #include <map>
 #include <list>
+#include <chrono>
 using std::cout;
 using std::cin;
 using std::endl;
@@ -39,5 +40,16 @@ public:
 		cursorInfo.bVisible = enable;
 		cursorInfo.dwSize = 1;
 		SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursorInfo);
+	}
+
+	static void TimeCheck(void (*Func)())
+	{
+		
+		auto start = std::chrono::high_resolution_clock::now();
+		// 함수 포인터
+		Func();
+		auto end = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double, std::milli> duration = end - start;
+		std::cout << duration.count() << "ms 소요" << std::endl;
 	}
 };
