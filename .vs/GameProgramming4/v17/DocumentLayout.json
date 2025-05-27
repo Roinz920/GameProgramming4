@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "I:\\GameProgramming_Personal\\GameProgramming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAB087A4-A0D1-4807-B621-9052A8E173D8}|Ch9_Sequence Container\\Ch9_Sequence Container.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAB087A4-A0D1-4807-B621-9052A8E173D8}|Ch9_Sequence Container\\Ch9_Sequence Container.vcxproj|solutionrelative:Ch9_Sequence Container\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}|Ch10_Deque and FuncPointer\\Ch10_Deque and FuncPointer.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\FP2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}|Ch10_Deque and FuncPointer\\Ch10_Deque and FuncPointer.vcxproj|solutionrelative:Ch10_Deque and FuncPointer\\FP2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB087A4-A0D1-4807-B621-9052A8E173D8}|Ch9_Sequence Container\\Ch9_Sequence Container.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\TimeCheck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAB087A4-A0D1-4807-B621-9052A8E173D8}|Ch9_Sequence Container\\Ch9_Sequence Container.vcxproj|solutionrelative:Ch9_Sequence Container\\TimeCheck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}|Ch10_Deque and FuncPointer\\Ch10_Deque and FuncPointer.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\DequeTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}|Ch10_Deque and FuncPointer\\Ch10_Deque and FuncPointer.vcxproj|solutionrelative:Ch10_Deque and FuncPointer\\DequeTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B33B1E-12F8-4929-A0C4-4D51B03EB8A1}|UtilityProject\\UtilityProject.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\ConsoleUtility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C0B33B1E-12F8-4929-A0C4-4D51B03EB8A1}|UtilityProject\\UtilityProject.vcxproj|solutionrelative:UtilityProject\\ConsoleUtility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB087A4-A0D1-4807-B621-9052A8E173D8}|Ch9_Sequence Container\\Ch9_Sequence Container.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\FunctionPointer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAB087A4-A0D1-4807-B621-9052A8E173D8}|Ch9_Sequence Container\\Ch9_Sequence Container.vcxproj|solutionrelative:Ch9_Sequence Container\\FunctionPointer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}|Ch10_Deque and FuncPointer\\Ch10_Deque and FuncPointer.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}|Ch10_Deque and FuncPointer\\Ch10_Deque and FuncPointer.vcxproj|solutionrelative:Ch10_Deque and FuncPointer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConsoleUtility.h",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\ConsoleUtility.h",
-              "RelativeDocumentMoniker": "UtilityProject\\ConsoleUtility.h",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\UtilityProject\\ConsoleUtility.h",
-              "RelativeToolTip": "UtilityProject\\ConsoleUtility.h",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FP2.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\FP2.h",
+              "RelativeDocumentMoniker": "Ch10_Deque and FuncPointer\\FP2.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\FP2.h",
+              "RelativeToolTip": "Ch10_Deque and FuncPointer\\FP2.h",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAwLEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-26T08:09:17.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FunctionPointer.h",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\FunctionPointer.h",
-              "RelativeDocumentMoniker": "Ch9_Sequence Container\\FunctionPointer.h",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\FunctionPointer.h",
-              "RelativeToolTip": "Ch9_Sequence Container\\FunctionPointer.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-26T07:47:20.448Z",
+              "WhenOpened": "2025-05-27T07:10:00.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TimeCheck.h",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\TimeCheck.h",
-              "RelativeDocumentMoniker": "Ch9_Sequence Container\\TimeCheck.h",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\TimeCheck.h",
-              "RelativeToolTip": "Ch9_Sequence Container\\TimeCheck.h",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAACAAAAAAAAAA==",
+              "Title": "DequeTest.h",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\DequeTest.h",
+              "RelativeDocumentMoniker": "Ch10_Deque and FuncPointer\\DequeTest.h",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\DequeTest.h",
+              "RelativeToolTip": "Ch10_Deque and FuncPointer\\DequeTest.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-26T07:16:49.271Z",
+              "WhenOpened": "2025-05-27T07:09:29.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\main.cpp",
-              "RelativeDocumentMoniker": "Ch9_Sequence Container\\main.cpp",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch9_Sequence Container\\main.cpp",
-              "RelativeToolTip": "Ch9_Sequence Container\\main.cpp",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFoAAAAoAAAAAAAAAA==",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\main.cpp",
+              "RelativeDocumentMoniker": "Ch10_Deque and FuncPointer\\main.cpp",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch10_Deque and FuncPointer\\main.cpp",
+              "RelativeToolTip": "Ch10_Deque and FuncPointer\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-26T07:06:33.342Z",
+              "WhenOpened": "2025-05-27T07:04:32.736Z",
               "EditorCaption": ""
             }
           ]

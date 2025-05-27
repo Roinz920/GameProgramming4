@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch8_enum Vector", "Ch8_enum
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch9_Sequence Container", "Ch9_Sequence Container\Ch9_Sequence Container.vcxproj", "{BAB087A4-A0D1-4807-B621-9052A8E173D8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch10_Deque and FuncPointer", "Ch10_Deque and FuncPointer\Ch10_Deque and FuncPointer.vcxproj", "{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{BAB087A4-A0D1-4807-B621-9052A8E173D8}.Release|x64.Build.0 = Release|x64
 		{BAB087A4-A0D1-4807-B621-9052A8E173D8}.Release|x86.ActiveCfg = Release|Win32
 		{BAB087A4-A0D1-4807-B621-9052A8E173D8}.Release|x86.Build.0 = Release|Win32
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Debug|x64.ActiveCfg = Debug|x64
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Debug|x64.Build.0 = Debug|x64
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Debug|x86.Build.0 = Debug|Win32
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Release|x64.ActiveCfg = Release|x64
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Release|x64.Build.0 = Release|x64
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Release|x86.ActiveCfg = Release|Win32
+		{802EB01F-EAFF-410E-AC0D-490DD8F7A3CB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
