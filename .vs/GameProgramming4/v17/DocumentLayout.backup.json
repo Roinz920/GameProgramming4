@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "I:\\GameProgramming_Personal\\GameProgramming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C205A05-77DD-4FAF-B5FA-B23E2F998594}|Ch11_STL_Containers\\Ch11_STL_Containers.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch11_STL_Containers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8C205A05-77DD-4FAF-B5FA-B23E2F998594}|Ch11_STL_Containers\\Ch11_STL_Containers.vcxproj|solutionrelative:Ch11_STL_Containers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1326DF25-D81B-488D-BD97-A7CC0CFA7B18}|Ch12_Associate Container\\Ch12_Associate Container.vcxproj|I:\\GameProgramming_Personal\\GameProgramming4\\Ch12_Associate Container\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1326DF25-D81B-488D-BD97-A7CC0CFA7B18}|Ch12_Associate Container\\Ch12_Associate Container.vcxproj|solutionrelative:Ch12_Associate Container\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|I:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\type_traits||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +17,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "type_traits",
+              "DocumentMoniker": "I:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\type_traits",
+              "RelativeDocumentMoniker": "..\\..\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\type_traits",
+              "ToolTip": "I:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\type_traits",
+              "RelativeToolTip": "..\\..\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\type_traits",
+              "ViewState": "AgIAAFkJAAAAAAAAAAAiwGoJAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-29T07:27:14.054Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch11_STL_Containers\\main.cpp",
-              "RelativeDocumentMoniker": "Ch11_STL_Containers\\main.cpp",
-              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch11_STL_Containers\\main.cpp",
-              "RelativeToolTip": "Ch11_STL_Containers\\main.cpp",
-              "ViewState": "AgIAAEwBAAAAAAAAAAAAAFMBAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch12_Associate Container\\main.cpp",
+              "RelativeDocumentMoniker": "Ch12_Associate Container\\main.cpp",
+              "ToolTip": "I:\\GameProgramming_Personal\\GameProgramming4\\Ch12_Associate Container\\main.cpp*",
+              "RelativeToolTip": "Ch12_Associate Container\\main.cpp*",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAwOYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-28T07:00:01.723Z",
+              "WhenOpened": "2025-05-29T07:02:02.976Z",
               "EditorCaption": ""
             }
           ]
