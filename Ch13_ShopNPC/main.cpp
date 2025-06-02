@@ -19,11 +19,6 @@
 #include <iomanip> // 입출력 조작 헤더
 #include <Windows.h>
 
-#pragma region 상점 코드
-const int total_width = 60;		// 전체
-const int field1_width = 30;	// 이름
-const int field2_width = 15;	// 가격
-const int field3_width = 15;	// 타입
 class Item
 {
 private:
@@ -33,7 +28,7 @@ private:
 public:
 	Item() = default;
 	Item(std::string name, int price, std::string type) : name(name), price(price), type(type) {}
-	
+
 	std::string getName()
 	{
 		return name;
@@ -47,6 +42,53 @@ public:
 		return type;
 	}
 };
+
+#pragma region 플레이어 코드
+
+class Player
+{
+public:
+	//좌표
+	int posX;
+	int posY;
+	//돈
+	int money;
+
+	//	(1) 플레이어가 소유한 인벤토리를 자료구조를 한가지 선택해서, 그 자료구조에 구매한 아이템을 저장해보세요.
+	//	(2) 저장한 자료구조를 사용하는 함수를 만들어보세요.
+
+public:
+	Player() = default;
+	Player(int posX, int posY, int money) : posX(posX), posY(posY), money(money) {}
+
+	void ShowPlayerUI()
+	{
+		ConsoleUtil::GotoXY(60, 5);
+		std::cout << "플레이어의 정보" << std::endl;
+		ConsoleUtil::GotoXY(60, 6);
+		std::cout << "소지금 : " << money << std::endl;
+
+		// 보유한 아이템 목록
+	}
+
+	void BuyItem(Item& item)
+	{
+		money -= item.getPrice();
+
+		// vector.push_back(item);;
+		// map.insert(?, item); // 아이템 이름으로 검색할 수 있게 map<string, item>
+		// unordered_map<string, item>
+	}
+	// Shop 코드와 연동 → money, Shop.Items[i].price를 비교 → money -= price;
+	// 인벤토리 (어떤 타입의 컨테이너?) shop → player.inventory
+};
+#pragma endregion
+
+#pragma region 상점 코드
+const int total_width = 60;		// 전체
+const int field1_width = 30;	// 이름
+const int field2_width = 15;	// 가격
+const int field3_width = 15;	// 타입
 
 class Shop
 {
@@ -122,29 +164,65 @@ public:
 	}
 
 	// 데이터를 사용하여 기능을 구현
-	void showShop()
+	void showShop(int x, int y)
 	{
 		// 아이템의 머릿말
 		//std::string headersize = "123456789012345678901234567890123456789012345678901234567890";
 		//cout << headersize << endl;
-		ConsoleUtil::GotoXY(0, 0);
+		ConsoleUtil::GotoXY(x, y);
 		cout << std::left << std::setw(field1_width) << "이름"
 			<< std::setw(field2_width) << " 가격"
 			<< std::setw(field3_width) << " 타입"
 			<< endl;
 		// 라인 긋는 방법
+		ConsoleUtil::GotoXY(x, y+1);
 		cout << std::setw(total_width) << std::setfill('=') << "" << endl;
 		cout << std::setfill(' '); // 빈칸을 채우는 기준을 = 에서 빈 공간으로 초기화
 
 		for (int i = 0; i < items.size(); i++) //인덱스 기반의 접근이 가능한 자료구조여야만 한다. vector, map
 		{
+			ConsoleUtil::GotoXY(x, y + 2 + i);
 			cout << std::left << std::setw(field1_width) << items[i].getName()
 				<< std::setw(field2_width) << items[i].getPrice()
 				<< std::setw(field3_width) << items[i].getType()
 				<< endl;
 		}
 	}
+
+	// 아이템을 판매한다. (단, 플레이어가 돈이 없다면...)
+	bool BuyItem(int index, Player& player)
+	{
+		if (items.find(index) != items.end()) // index에 해당하는 아이템을 찾았다면
+		{
+			Item itemInstance = items[index];
+			if (player.money >= itemInstance.getPrice())
+			{
+				player.BuyItem(itemInstance);
+				return true;
+			}
+			else
+			{
+				std::cout << "소지금이 부족합니다." << endl;
+			}			
+		}
+		else
+		{
+			std::cout << "아이템을 차지 못하였습니다." << endl;
+		}
+	}
+
+	void Interact(Player& player)
+	{
+		int select;
+		std::cout << "번호를 입력하여 아이템 구매." << endl;
+
+		std::cin >> select;
+		
+		BuyItem(select, player);
+
+	}
 };
+
 #pragma endregion
 
 #pragma region NPC 코드
@@ -156,8 +234,11 @@ private:
 	int posX;
 	int posY;
 public:
+	bool isActivate;
+
+public:
 	NPC() = default;
-	NPC(std::string filename, int posX, int posY) : posX(posX), posY(posY)
+	NPC(std::string filename, int posX, int posY) : posX(posX), posY(posY), isActivate(true)
 	{
 		shop = Shop(filename); // NPC가 가진 상점의 정보를 초기화시키는 작업
 	}
@@ -169,46 +250,46 @@ public:
 	{
 		return posY;
 	}
-	void ShowItems()
+	void ShowItems(int x, int y)
 	{
-		shop.showShop();
+		shop.showShop(x, y);
 	}
+
+	void Interact(Player& player)
+	{
+		shop.Interact(player);
+		isActivate = false;
+	}
+
 	void ShowNPC()
 	{
+		if (isActivate == false) { return; }
 		ConsoleUtil::GotoXY(posX, posY);
 		std::cout << "$";
 	}
 };
-void Interact(int x1, int y1, NPC& npc) // Player, NPC
+void Interact(Player& player, NPC& npc, int UI_x, int UI_y) // Player, NPC
 {
-	if (x1 == npc.getPosX() && y1 == npc.getPosY())
+	if (player.posX == npc.getPosX() && player.posY == npc.getPosY())
 	{
-		npc.ShowItems();
+		if (npc.isActivate == false) { return; } // 상점이 비활성화되면 사용 불가능
+
+		npc.ShowItems(UI_x,UI_y);
+		npc.Interact(player);
 	}
 }
 
-void ShowPhase(Shop& shop)
+void ShowPhase(Shop& shop, int UI_x, int UI_y)
 {
-	shop.showShop();
+	shop.showShop(UI_x, UI_y);
 }
-#pragma endregion
-
-#pragma region 플레이어 코드
-
-class Player
-{
-	int posX;
-	int posY;
-	int money;
-};
 #pragma endregion
 
 int main()
 {
-	system("mode con:cols=80 lines=20");
+	system("mode con:cols=120 lines=40");
 	ConsoleUtil::SetCursorVisible(false);
-	int playerX = 10;
-	int playerY = 10;
+	Player player(10, 10, 1000); // 플레이어의 시작 설정
 
 	NPC npc1("shop1.txt",  3, 15);
 	NPC npc2("shop2.txt",  8, 15);
@@ -225,31 +306,31 @@ int main()
 			system("cls");
 			if (GetAsyncKeyState(VK_UP))
 			{
-				playerY--;
-				if (playerY <= 0) { playerY = 0; }
+				player.posY--;
+				if (player.posY <= 0) { player.posY = 0; }
 			}
 			if (GetAsyncKeyState(VK_DOWN))
 			{
-				playerY++;
+				player.posY++;
 			}
 			if (GetAsyncKeyState(VK_LEFT))
 			{
-				playerX--;
-				if (playerX <= 0) { playerX = 0; }
+				player.posX--;
+				if (player.posX <= 0) { player.posX = 0; }
 			}
 			if (GetAsyncKeyState(VK_RIGHT))
 			{
-				playerX++;
+				player.posX++;
 			}
 		}
-	
+		player.ShowPlayerUI();
 		npc1.ShowNPC();
 		npc2.ShowNPC();
 		npc3.ShowNPC();
-		Interact(playerX, playerY, npc1);
-		Interact(playerX, playerY, npc2);
-		Interact(playerX, playerY, npc3);
-		ConsoleUtil::GotoXY(playerX, playerY);
+		Interact(player, npc1, 0, 20);
+		Interact(player, npc2, 0, 20);
+		Interact(player, npc3, 0, 20);
+		ConsoleUtil::GotoXY(player.posX, player.posY);
 		std::cout << "a";	
 		Sleep(100);
 	}
